@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: hsl(218, 23%, 16%);
+}
+
+.box {
+    width: 30%;
+    height: 40%;
+    padding: 8px;
+
+    position: relative;
+
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+}
+
+.box h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-size: 12px;
+    font-weight: normal;
+
+    margin-top: 2rem;
+
+    color: hsl(150, 100%, 66%);
+}
+
+.box .content {
+    margin: 1rem auto;
+    width: 90%;
+    height: 45%;
+    border: solid 4px white;
+
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+}
+
+.box #advice {
+    font-weight: 28px;
+}
+
+.box .divider {
+  display: block;
+  margin: 2rem auto 0;
+  width: 90%;
+
+  position: relative;
+}
+
+.box .divider img {
+    width: 100%;
+}
+
+.box .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box .btn img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+/* 
+ Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%)
+ */
